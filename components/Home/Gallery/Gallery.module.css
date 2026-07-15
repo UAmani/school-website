@@ -1,0 +1,85 @@
+.gallery {
+  padding: var(--section-padding) 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  height: 260px;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+}
+
+.image {
+  object-fit: cover;
+  transition: transform .4s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.08);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 74, 173, .65);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+
+  opacity: 0;
+  transition: .3s;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.buttonWrapper {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 30px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: var(--radius-sm);
+  transition: var(--transition);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    padding: 80px 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    height: 220px;
+  }
+}

@@ -1,0 +1,105 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 9999;
+
+  padding: 20px;
+}
+
+.modal {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.imageContainer h3 {
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.iconButton {
+  position: absolute;
+
+  width: 50px;
+  height: 50px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  font-size: 18px;
+}
+
+.iconButton:hover {
+  background: #004AAD;
+}
+
+.close {
+  top: -60px;
+  right: 0;
+}
+
+.left {
+  left: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right {
+  right: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 992px) {
+  .left {
+    left: 10px;
+  }
+
+  .right {
+    right: 10px;
+  }
+
+  .close {
+    top: 10px;
+    right: 10px;
+  }
+
+  .iconButton {
+    width: 44px;
+    height: 44px;
+  }
+
+  .imageContainer h3 {
+    font-size: 18px;
+  }
+}

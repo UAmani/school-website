@@ -1,0 +1,28 @@
+.sectionTitle {
+  margin-bottom: 50px;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.sectionTitle span {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sectionTitle h2 {
+  font-size: 42px;
+  margin: 12px 0;
+}
+
+.sectionTitle p {
+  color: #666;
+  line-height: 1.8;
+}

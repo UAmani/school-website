@@ -1,0 +1,49 @@
+.footer {
+  background: #0d1b2a;
+  color: white;
+  padding-top: 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.about {
+  margin-top: 20px;
+  line-height: 1.8;
+  color: rgba(255,255,255,.8);
+}
+
+.grid h3 {
+  margin-bottom: 20px;
+}
+
+.grid ul li {
+  margin-bottom: 15px;
+}
+
+.grid a:hover {
+  color: var(--secondary-color);
+}
+
+.contact li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,.1);
+  padding: 25px 0;
+  color: rgba(255,255,255,.7);
+}
+
+@media (max-width:992px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,29 @@
+.section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.mapWrapper {
+  margin-top: 50px;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.mapWrapper iframe {
+  width: 100%;
+  height: 500px;
+  border: 0;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .mapWrapper iframe {
+    height: 350px;
+  }
+}

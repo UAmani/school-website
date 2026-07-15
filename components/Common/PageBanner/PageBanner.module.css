@@ -1,0 +1,38 @@
+.banner {
+  position: relative;
+  height: 350px;
+  background: url("/images/banner/page-banner.png") center/cover no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+  color: var(--white);
+}
+
+.content h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 12px;
+  color: var(--white);;
+}
+
+.breadcrumb {
+  font-size: 16px;
+}
+
+.breadcrumb a {
+  color: var(--white);
+}
+
+.separator {
+  margin: 0 8px;
+}

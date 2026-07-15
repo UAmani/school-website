@@ -1,0 +1,49 @@
+.story {
+  padding: var(--section-padding) 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.storyImage {
+  object-fit: cover;
+}
+
+.content p {
+  margin-top: 20px;
+  line-height: 1.8;
+  color: var(--text-light);
+}
+
+.list {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: 16px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .image {
+    height: 350px;
+  }
+}

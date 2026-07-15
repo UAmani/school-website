@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+
+.logo h2 {
+color: var(--primary-color);
+  font-size: 24px;
+}
+
+.logo p {
+  color: #666;
+  font-size: 14px;
+}
