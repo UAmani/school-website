@@ -7,6 +7,13 @@ import FAQ from "../../components/Admissions/FAQ/FAQ";
 import AdmissionForm from "../../components/Admissions/AdmissionForm/AdmissionForm";
 import CTA from "@/components/Common/CTA/CTA";
 
+export const metadata = {
+  title: "Admissions",
+
+  description:
+    "Apply for admission and learn about the admission process, eligibility, documents required, and fee structure.",
+};
+
 export default function AdmissionsPage() {
   return (
     <>

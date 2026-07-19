@@ -7,7 +7,14 @@ import Facilities from "../components/Home/Facilities/Facilities";
 import Gallery from "../components/Home/Gallery/Gallery";
 import Testimonials from "../components/Home/Testimonials/Testimonials";
 import CTA from "../components/Home/CTA/CTA";
+import siteConfig from "../data/siteConfig";
 
+export const metadata = {
+  title: siteConfig.schoolName,
+
+  description:
+    "ABC Public School offers quality education with experienced faculty, modern classrooms, and holistic student development.",
+};
 export default function Home() {
   return (
     <>

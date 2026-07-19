@@ -6,6 +6,14 @@ import SmartLearning from "../../components/Academics/SmartLearning/SmartLearnin
 import Activities from "../../components/Academics/Activities/Activities";
 import Examination from "../../components/Academics/Examination/Examination";
 import CTA from "@/components/Home/CTA/CTA";
+
+export const metadata = {
+  title: "Academics",
+
+  description:
+    "Explore our curriculum, teaching methodology, co-curricular activities, and academic excellence.",
+};
+
 export default function AcademicsPage() {
   return (
     <>
