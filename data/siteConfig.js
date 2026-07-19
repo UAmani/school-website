@@ -31,7 +31,7 @@ const siteConfig = {
     country: "IN",
   },
   keywords: [
-    "School",
+    "ABC PM School",
     "Education",
     "CBSE School",
     "Admissions",
