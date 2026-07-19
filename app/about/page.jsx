@@ -6,6 +6,13 @@ import CoreValues from "../../components/About/CoreValues/CoreValues";
 import Achievements from "../../components/About/Achievements/Achievements";
 import CTA from "../../components/About/CTA/CTA";
 
+export const metadata = {
+  title: "About Us",
+
+  description:
+    "Learn about our school's vision, mission, history, leadership, and commitment to quality education.",
+};
+
 export default function AboutPage() {
   return (
     <>
