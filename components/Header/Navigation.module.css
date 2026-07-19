@@ -1,42 +1,196 @@
-.nav {
-  flex: 1;
+/* ===========================
+   Desktop Navigation
+=========================== */
+
+.desktopNav {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .navList {
   display: flex;
-  list-style: none;
-  gap: 40px;
   align-items: center;
+  gap: 1.8rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
-.navItem {}
 
 .navLink {
   position: relative;
+  color: var(--text-color);
+  font-size: 0.95rem;
   font-weight: 600;
-  color: #333;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .navLink:hover {
-  color: var(--primary-color);
+  color: #004aad;
 }
+
 
 .navLink::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: -6px;
-
   width: 0;
   height: 2px;
-
-  background: var(--primary-color);
+  background: #004aad;
   transition: width 0.3s ease;
 }
 
-.navLink:hover::after {
+.navLink:hover::after,
+.active::after {
   width: 100%;
+}
+
+
+.active {
+  color: #004aad;
+}
+
+/* ===========================
+   Apply Button
+=========================== */
+
+.applyBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.4rem;
+    color: #fff;
+    background: #f5a623;;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.applyBtn:hover {
+ background: #d98f12;
+}
+
+/* ===========================
+   Mobile Toggle
+=========================== */
+
+.menuButton {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #004aad;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+/* ===========================
+   Mobile Menu
+=========================== */
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 280px;
+  height: 100vh;
+  background: #fff;
+  padding: 6rem 2rem 2rem;
+  box-shadow: -6px 0 20px rgba(0,0,0,0.12);
+  transition: right 0.35s ease;
+  z-index: 999;
+}
+
+.mobileMenuOpen {
+  right: 0;
+}
+
+.mobileNavList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobileNavList li {
+  margin-bottom: 1rem;
+}
+
+.mobileLink {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.mobileLink:hover,
+.mobileLink.active {
+  color: #004aad;
+}
+
+.mobileApplyBtn {
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+  padding: 0.9rem;
+  background: #004aad;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.mobileApplyBtn:hover {
+  background: var(--secondary-color);
+}
+.closeButton {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .closeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-bottom: 1rem;
+
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    font-size: 2rem;
+    color: var(--text-color);
+
+    transition: var(--transition);
+  }
+
+  .closeButton:hover {
+    color: #004aad;
+  }
+}
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width: 991px) {
+  .desktopNav {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobileMenu {
+    display: none;
+  }
 }

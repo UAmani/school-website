@@ -10,9 +10,10 @@ export default function Logo() {
     <Link href="/"  className={styles.logo}>
       <Image
         src={school.logo}
-        alt={school.name}
-        width={60}
-        height={60}
+        alt={school.name} 
+  width={60}
+  height={60}
+  priority
       />
 
       <div>

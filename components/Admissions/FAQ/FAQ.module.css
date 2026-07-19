@@ -1,5 +1,5 @@
 .section {
-  padding-bottom: var(--section-padding);
+  padding-bottom: 100px;
 }
 
 .accordion {
@@ -11,14 +11,14 @@
   margin-bottom: 18px;
   border-radius: var(--radius-md);
   overflow: hidden;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
 }
 
 .question {
   width: 100%;
   border: none;
-  background: var(--primary-color);
-  color: var(--white);
+  background: #004aad;
+  color: #ffffff;
   padding: 20px 25px;
 
   display: flex;
@@ -32,7 +32,7 @@
 }
 
 .answer {
-  background: var(--white);
+  background: #ffffff;
   padding: 20px 25px;
 }
 

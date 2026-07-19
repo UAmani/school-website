@@ -1,0 +1,115 @@
+/* ===========================
+   SECTION
+=========================== */
+
+.section {
+  padding: var(--section-padding) 0;
+}
+
+.sectionBg {
+  background: var(--section-bg);
+}
+
+/* ===========================
+   TEXT
+=========================== */
+
+.textCenter {
+  text-align: center;
+}
+
+.textPrimary {
+  color: #004aad;
+}
+
+.textLight {
+  color: var(--text-light);
+}
+
+/* ===========================
+   FLEX
+=========================== */
+
+.flex {
+  display: flex;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===========================
+   GRID
+=========================== */
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: var(--gap-lg);
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: var(--gap-lg);
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: var(--gap-lg);
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width:992px){
+
+.grid4{
+grid-template-columns:repeat(2,1fr);
+}
+
+.grid3{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media (max-width:768px){
+
+.section{
+padding:var(--section-padding-mobile) 0;
+}
+
+.grid2,
+.grid3,
+.grid4{
+grid-template-columns:1fr;
+}
+
+}

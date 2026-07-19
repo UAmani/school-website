@@ -4,6 +4,9 @@
   padding-top: 80px;
 }
 
+.footer h2{
+  color: #fff;
+}
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
@@ -26,7 +29,8 @@
 }
 
 .grid a:hover {
-  color: var(--secondary-color);
+     color: #f5a623;
+    transition: color .3s;
 }
 
 .contact li {
@@ -41,7 +45,10 @@
   padding: 25px 0;
   color: rgba(255,255,255,.7);
 }
-
+.grid ul li a{
+ color: #fff;
+ text-decoration: none;
+}
 @media (max-width:992px) {
   .grid {
     grid-template-columns: 1fr;

@@ -1,5 +1,6 @@
 const home = {
   hero: {
+    tag:"Admissions Open 2026–27",
     title: " ABC Public School",
     subtitle:
       "Empowering students with knowledge, creativity, and values for a brighter future.",

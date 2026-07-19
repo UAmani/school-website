@@ -1,19 +1,43 @@
 @import "../styles/variables.css";
 @import "../styles/reset.css";
 
-/* :root {
+:root {
+  /* Colors */
   --primary-color: #004aad;
-  --secondary-color: #ffb703;
+  --secondary-color: #f5a623;
 
-  --text-color: #333;
   --white: #ffffff;
-  --light-bg: #f8f9fa;
+  --black: #000000;
 
+  --text-color: #333333;
+  --text-light: #666666;
+
+  --background: #ffffff;
+  --section-bg: #f8fbff;
+
+  /* Layout */
   --container-width: 1200px;
+  --header-height: 80px;
+  --border-radius: 16px;
 
-  --transition: 0.3s ease;
-} */
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
 
+  /* Shadow */
+  --shadow-sm: 0 4px 12px rgba(0,0,0,.08);
+  --shadow-md: 0 8px 24px rgba(0,0,0,.12);
+
+  /* Transition */
+  --transition: all .3s ease;
+    /* Spacing */
+  --section-padding: 100px;
+  --gap: 30px;
+}
 * {
   margin: 0;
   padding: 0;

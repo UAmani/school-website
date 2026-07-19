@@ -16,13 +16,13 @@
 .content {
   width: 100%;
   text-align: center;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .content h1 {
   font-size: clamp(2rem, 4vw, 3rem);
   margin-bottom: 12px;
-  color: var(--white);;
+  color: #ffffff;;
 }
 
 .breadcrumb {
@@ -30,7 +30,8 @@
 }
 
 .breadcrumb a {
-  color: var(--white);
+  color: #fff;
+  text-decoration: none;
 }
 
 .separator {

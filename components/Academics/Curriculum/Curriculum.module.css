@@ -1,5 +1,5 @@
 .section {
-  padding: var(--section-padding) 0;
+  padding: 100px 0;
 }
 
 .wrapper {
@@ -41,7 +41,7 @@
 }
 
 .icon {
-  color: var(--primary-color);
+  color: #004aad;
   font-size: 18px;
 }
 

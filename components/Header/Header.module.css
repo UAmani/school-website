@@ -1,19 +1,81 @@
+/* ===========================
+   Header
+=========================== */
+
 .header {
   position: sticky;
   top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
   z-index: 1000;
-  background: var(--white);
-  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
 }
+
+/* ===========================
+   Container
+=========================== */
 
 .container {
   max-width: 1200px;
-  width: 100%;
   margin: 0 auto;
-  padding: 15px 20px;
+  padding: 0 20px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+
+  min-height: 80px;
+}
+
+/* ===========================
+   Logo
+=========================== */
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo img {
+  width: auto;
+  height: 60px;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width: 992px) {
+  .container {
+    min-height: 72px;
+    padding: 0 16px;
+  }
+
+  .logo img {
+    height: 52px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    min-height: 68px;
+  }
+
+  .logo img {
+    height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    min-height: 64px;
+    padding: 0 14px;
+  }
+
+  .logo img {
+    height: 44px;
+  }
 }

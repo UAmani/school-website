@@ -1,19 +1,20 @@
 .cta {
-  padding-bottom: var(--section-padding);
+ padding: 50px 0;
+    background: #004aad;
 }
 
 .box {
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
-    var(--primary-color),
+    #004aad,
     #0066cc
-  );
+  ); */
 
-  color: var(--white);
+  color: #ffffff;
 
   border-radius: var(--radius-lg);
 
-  padding: 70px 40px;
+  padding: 0px 40px;
 
   text-align: center;
 }

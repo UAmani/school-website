@@ -1,5 +1,5 @@
 .section {
-  padding-bottom: var(--section-padding);
+  padding-bottom: 100px;
 }
 
 .grid {
@@ -9,22 +9,22 @@
 }
 
 .card {
-  background: var(--white);
+  background: #ffffff;
   padding: 35px;
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
   text-align: center;
   transition: var(--transition);
 }
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 10px 30px rgba(0,0,0,.10);
 }
 
 .icon {
   font-size: 42px;
-  color: var(--primary-color);
+  color: #004aad;
   margin-bottom: 20px;
 }
 

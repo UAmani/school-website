@@ -3,7 +3,7 @@
 }
 
 .left {
-  text-align: left;
+  text-align: center;
 }
 
 .center {
@@ -11,10 +11,11 @@
 }
 
 .sectionTitle span {
-  color: var(--primary-color);
+  color: #004aad;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
+  display: none;
 }
 
 .sectionTitle h2 {

@@ -1,6 +1,6 @@
 .statistics {
   padding: 80px 20px;
-  background: var(--primary-color);
+  background: #004aad;
 }
 
 .grid {
@@ -11,7 +11,7 @@
 }
 
 .card {
-  color: var(--white);
+  color: #ffffff;
 }
 
 .card h2 {
