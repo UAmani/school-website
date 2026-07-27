@@ -9,21 +9,29 @@
 .center {
   text-align: center;
 }
-
 .sectionTitle span {
-  color: #004aad;
+  color: var(--primary-color);
+  font-size: 0.95rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  display: none;
-}
-
-.sectionTitle h2 {
-  font-size: 42px;
-  margin: 12px 0;
 }
 
 .sectionTitle p {
+  font-size: 1rem;
   color: #666;
   line-height: 1.8;
+  max-width: 700px;
 }
+
+
+
+
+
+.sectionTitle h2 {
+  font-size: clamp(1.8rem, 3vw, 2.5rem); /* 29px - 40px */
+  margin: 12px 0;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
