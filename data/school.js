@@ -5,7 +5,7 @@ const school = {
   logo: "/images/logo.png",
 
   phone: "+91 9885473437",
-  email: "amaniakulaa@gmail.com",
+  email: "amani@gmail.com",
 
   address: "Hyderabad, Telangana",
 
