@@ -4,8 +4,8 @@ const school = {
 
   logo: "/images/logo.png",
 
-  phone: "+91 9876543210",
-  email: "info@abcschool.com",
+  phone: "+91 9885473437",
+  email: "amaniakulaa@gmail.com",
 
   address: "Hyderabad, Telangana",
 
