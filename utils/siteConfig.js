@@ -12,6 +12,15 @@ const siteConfig = {
 
   website: "https://abcschool.com",
  googleMapEmbed:googleMapEmbedUrl,
+  keywords: [
+    "ABC School",
+    "Education",
+    "CBSE School",
+    "Admissions",
+    "Academics",
+    "ABC English medium school",
+    "ABC school in Anantapur",
+  ],
 
   social: {
     facebook: "",
