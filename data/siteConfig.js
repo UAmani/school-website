@@ -19,9 +19,9 @@ const siteConfig = {
 
   email: "info@abcschool.com",
 
-  phone: "+91 7095887199",
+  phone: "+91 9885473437",
 
-  whatsapp: "917095887199",
+  whatsapp: "919885473437",
 
     address: {
     street: "Road No. 1",
@@ -31,11 +31,13 @@ const siteConfig = {
     country: "IN",
   },
   keywords: [
-    "ABC PM School",
+    "ABC School",
     "Education",
     "CBSE School",
     "Admissions",
     "Academics",
+    "ABC English medium school",
+    "ABC school in Anantapur",
   ],
 
   social: {
