@@ -41,7 +41,7 @@ const handleSubmit = (e) => {
     return;
   }
 
-  const phoneNumber = "919876543210"; // Replace with school's WhatsApp number
+  const phoneNumber = "919885473437"; // Replace with school's WhatsApp number
 
   const message = `
 *Admission Enquiry*
