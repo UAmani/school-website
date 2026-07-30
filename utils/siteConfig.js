@@ -2,9 +2,9 @@ const googleMapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1
 const siteConfig = {
   schoolName: "ABC Public School",
 
-  phone: "+91 98765 43210",
+  phone: "+91 9885473437",
 
-  whatsappNumber: "917095887199",
+  whatsappNumber: "919885473437",
 
   email: "amaniummadi@gmail.com",
 
